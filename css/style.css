@@ -312,6 +312,9 @@ button {
     position: relative;
     left: -83px;
 }
+.logo_sm {
+    display: none;
+}
 
 .round {
     width: 100%;
@@ -452,6 +455,18 @@ button {
     text-align: center;
     padding-top: 12px;
     display: inline-block;
+}
+
+@media (min-width: 320px) {
+    .about_bt a {
+        widows: 100%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about_bt a {
+        widows: 40%;
+    }
 }
 
 .about_bt a {
