@@ -198,27 +198,6 @@ $(function () {
 		} );
 	});
 	
-	/* heroslider
-	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
-	
-	var swiper = new Swiper('.heroslider', {
-		spaceBetween: 30,
-		centeredSlides: true,
-		slidesPerView: 'auto',
-		paginationClickable: true,
-		loop: true,
-		autoplay: {
-			delay: 2500,
-			disableOnInteraction: false,
-		},
-		pagination: {
-			el: '.swiper-pagination',
-			clickable: true,
-			dynamicBullets: true
-		},
-	});
-	
-
 	/* Product Filters
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 
